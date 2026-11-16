@@ -11,17 +11,17 @@ Single-file Google Workspace API client. Zero dependencies. Python 3.7+.
 Paste this into Claude Code:
 
 ```
-Install the google-workspace-cli skill: download https://raw.githubusercontent.com/tolmme/google-workspace-cli/main/install.py and run it with my email: YOUR_EMAIL
+Install the google-workspace-cli skill: download https://raw.githubusercontent.com/tolmachevmaxim/google-workspace-cli/main/install.py and run it with my email: YOUR_EMAIL
 ```
 
 Or manually:
 
 ```bash
 # macOS / Linux
-python3 <(curl -s https://raw.githubusercontent.com/tolmme/google-workspace-cli/main/install.py) YOUR_EMAIL
+python3 <(curl -s https://raw.githubusercontent.com/tolmachevmaxim/google-workspace-cli/main/install.py) YOUR_EMAIL
 
 # Windows (PowerShell)
-curl -o install.py https://raw.githubusercontent.com/tolmme/google-workspace-cli/main/install.py; python install.py YOUR_EMAIL; del install.py
+curl -o install.py https://raw.githubusercontent.com/tolmachevmaxim/google-workspace-cli/main/install.py; python install.py YOUR_EMAIL; del install.py
 ```
 
 The installer downloads `gw.py`, creates the Claude Code skill, and prompts you to set up Google Cloud credentials.

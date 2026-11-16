@@ -8,7 +8,7 @@ Usage:
 
 import os, sys, platform, urllib.request
 
-GW_PY_URL = "https://raw.githubusercontent.com/tolmme/google-workspace-cli/main/gw.py"
+GW_PY_URL = "https://raw.githubusercontent.com/tolmachevmaxim/google-workspace-cli/main/gw.py"
 
 def home():
     return os.path.expanduser("~")
@@ -110,7 +110,7 @@ def main():
         print("  3. Creates env file template for Google OAuth credentials")
         print()
         print("After install, follow the README to set up Google Cloud OAuth:")
-        print("  https://github.com/tolmme/google-workspace-cli#google-cloud-setup-one-time-5-minutes")
+        print("  https://github.com/tolmachevmaxim/google-workspace-cli#google-cloud-setup-one-time-5-minutes")
         sys.exit(0)
 
     email = sys.argv[1]
